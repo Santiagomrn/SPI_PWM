@@ -1,0 +1,51 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Fri Jun 26 00:20:56 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                    .code       code   0x000000    program   0x0000d4
+                   .cinit    romdata   0x0000d4    program   0x000002
+               .udata_acs      udata   0x000000       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000d5      
+            214 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    DELAY   0x0000b4    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+                     LOOP   0x0000c0    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+                     MAIN   0x00004c    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+             SPI_transfer   0x00009e    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+         Start_SPI_master   0x000016    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+            Wait_transfer   0x0000a6    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+             data_to_send   0x000000       data     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+                save_data   0x000001       data     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+              save_data_1   0x000002       data     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+              save_data_2   0x000003       data     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+         Start_SPI_master   0x000016    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+                     MAIN   0x00004c    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+             SPI_transfer   0x00009e    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+            Wait_transfer   0x0000a6    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+                    DELAY   0x0000b4    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+                     LOOP   0x0000c0    program     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+             data_to_send   0x000000       data     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+                save_data   0x000001       data     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+              save_data_1   0x000002       data     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+              save_data_2   0x000003       data     static C:\Users\santi\Google Drive\7sem\sistemas embebidos\PIC\SPI_PWM.X\main_SPI_PWM.asm
+
+
